@@ -1,15 +1,16 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    id 'maven-publish'
-    id 'signing'
+    id("maven-publish")
+    id("signing")
 }
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
     targetCompatibility = JavaVersion.VERSION_1_8
 }
-group = 'io.github.adibfara.listgen'
-version = '1.0.0'
+
+group = "io.github.adibfara.listgen"
+version = "1.0.0"
 
 java {
     withJavadocJar()
@@ -19,46 +20,45 @@ java {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            artifactId = 'ksp'
+            artifactId = "ksp"
             from components.java
             versionMapping {
-                usage('java-api') {
-                    fromResolutionOf('runtimeClasspath')
+                usage("java-api") {
+                    fromResolutionOf("runtimeClasspath")
                 }
-                usage('java-runtime') {
+                usage("java-runtime") {
                     fromResolutionResult()
                 }
             }
             pom {
-                name =  "ListGen"
+                name = "ListGen"
                 description = "ListGen is a KSP-based library that can generate lists (and also arrays and maps)" +
                         "from your functions that are annotated with @Listed"
-                url = 'http://www.example.com/library'
+                url = "http://www.example.com/library"
                 licenses {
                     license {
-                        name = 'The Apache License, Version 2.0'
-                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        name = "The Apache License, Version 2.0"
+                        url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
                     }
                 }
                 developers {
                     developer {
-                        id = 'adib'
-                        name = 'Adib Faramarzi'
-                        email = 'adibfara@github.com'
+                        id = "adib"
+                        name = "Adib Faramarzi"
+                        email = "adibfara@github.com"
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/adibfara/ListGen.git'
-                    developerConnection = 'scm:git:ssh://github.com/adibfara/ListGen.git'
-                    url = 'https://github.com/adibfara/ListGen'
+                    connection = "scm:git:git://github.com/adibfara/ListGen.git"
+                    developerConnection = "scm:git:ssh://github.com/adibfara/ListGen.git"
+                    url = "https://github.com/adibfara/ListGen"
                 }
             }
-
         }
     }
     repositories {
         maven {
-            url = 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
+            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             credentials {
                 username = findProperty("sonatypeUsername")
                 password = findProperty("sonatypePassword")
@@ -68,13 +68,12 @@ publishing {
 }
 
 signing {
-    sign publishing.publications.mavenJava
+    sign(publishing.publications.mavenJava)
 }
 
-
 javadoc {
-    if(JavaVersion.current().isJava9Compatible()) {
-        options.addBooleanOption('html5', true)
+    if (JavaVersion.current().isJava9Compatible()) {
+        options.addBooleanOption("html5", true)
     }
 }
 

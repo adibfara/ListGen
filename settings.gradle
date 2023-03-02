@@ -3,9 +3,9 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -16,9 +16,10 @@ dependencyResolutionManagement {
         }
     }
 }
+
 rootProject.name = "KSP Sample"
-include ':app'
-include ':ksp'
+include(":app")
+include(":ksp")
 
 // TODO: From Gradle version 7.4+, Version Catalog
 //  is stable and enabled by default.
