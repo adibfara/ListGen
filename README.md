@@ -7,8 +7,11 @@ from your functions that are annotated with `@Listed` (also `@Arrayed` and `@Map
 
 ## Usage
 
-First, annotate your functions with your desired output. You can use `@Listed` to generate `listOf`
-, `@Arrayed` to generate `arrayOf` and `@Mapped` for generating `mapOf`.
+First, annotate your functions with your desired output:
+
+- `@Listed` generates `listOf`
+- `@Arrayed` generates `arrayOf`
+- `@Mapped` generates `mapOf`
 
 All annotations require a name and `@Mapped` requires a key.
 
