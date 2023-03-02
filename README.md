@@ -81,13 +81,11 @@ on [kotlinlang.org](https://kotlinlang.org/docs/ksp-overview.html).
 Please share your thoughts on this project
 by [filing a Github issue](https://github.com/adibfara/ListGen/issues).
 
-## Notes
+## Inspiration
 
 The initial need for this library emerged when I was
 using [Koin](https://github.com/InsertKoinIO/koin) as a dependency injection framework in a project.
-You have to pass your list of modules to Koin and each module is defined somewhere in the project and you'll have a file
-containing `listOf(module1, module2, module3, ...)` which can get ugly (and error-prone).
-
-Using this library to generate that list can help not only the file being ugly, but also help with
-Open/Closed Principle for your modules.
-
+You have to pass your list of modules to Koin, and each module is defined somewhere in the project
+This results in a file containing `listOf(module1, module2, module3, ...)`, which can get ugly and
+error-prone. Using this library to generate that list prevents the file from being ugly and helps
+with the Open-Closed Principle for your modules.
