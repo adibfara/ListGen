@@ -80,7 +80,7 @@ the [official documentation](https://kotlinlang.org/docs/ksp-overview.html).
 ## Feedback and Bug Reporting
 
 Please share your thoughts on this project
-by [filing a Github issue](https://github.com/adibfara/ListGen/issues).
+by [filing a GitHub issue](https://github.com/adibfara/ListGen/issues).
 
 ## Inspiration
 
