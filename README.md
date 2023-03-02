@@ -78,8 +78,8 @@ on [kotlinlang.org](https://kotlinlang.org/docs/ksp-overview.html).
 
 ## Feedback and Bug Reporting
 
-Please let me know what you think about this project
-by [filing a Github issue](https://github.com/adibfara/ListGen/issues)
+Please share your thoughts on this project
+by [filing a Github issue](https://github.com/adibfara/ListGen/issues).
 
 ## Notes
 
