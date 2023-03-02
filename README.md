@@ -1,4 +1,4 @@
-# ListGen, Generate Lists From Functions That Have @Listed Annotations!
+# ListGen - Generate Lists from Annotations!
 
 Welcome to ListGen!
 
