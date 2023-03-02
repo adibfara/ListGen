@@ -73,8 +73,8 @@ dependencies {
 
 # Learning KSP
 
-If you want to learn more about KSP, most of the documentation of KSP can be found
-on [kotlinlang.org](https://kotlinlang.org/docs/ksp-overview.html).
+If you want to learn more about KSP, check out
+the [official documentation](https://kotlinlang.org/docs/ksp-overview.html).
 
 ## Feedback and Bug Reporting
 
