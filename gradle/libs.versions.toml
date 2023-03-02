@@ -1,7 +1,7 @@
 [versions]
-androidPlugin = "7.1.2"
-kotlin = "1.6.20"
-ksp = "1.6.20-1.0.5"
+androidPlugin = "7.4.1"
+kotlin = "1.6.21"
+ksp = "1.6.21-1.0.6"
 
 [libraries]
 # AndroidX
