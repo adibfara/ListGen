@@ -13,7 +13,7 @@ First, annotate your functions with your desired output:
 - `@Arrayed` generates `arrayOf`
 - `@Mapped` generates `mapOf`
 
-All annotations require a name and `@Mapped` requires a key.
+All annotations require a name but the `@Mapped` also requires a key.
 
 Let's see it in action:
 
