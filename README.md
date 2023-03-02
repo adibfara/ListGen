@@ -30,7 +30,7 @@ fun secondModule() = 3
 
 ```
 
-The code above will generate the following code with correct imports:
+These annotations will generate the following code with the correct imports:
 
 ```kotlin
 // in build/generated/ksp/debug|main/kotlin/com/snaky/ksp/GeneratedLists.kt
