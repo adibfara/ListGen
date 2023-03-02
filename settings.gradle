@@ -19,3 +19,7 @@ dependencyResolutionManagement {
 rootProject.name = "KSP Sample"
 include ':app'
 include ':ksp'
+
+// TODO: From Gradle version 7.4+, Version Catalog
+//  is stable and enabled by default.
+enableFeaturePreview("VERSION_CATALOGS")

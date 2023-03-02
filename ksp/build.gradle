@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm'
+    alias(libs.plugins.kotlin.jvm)
     id 'maven-publish'
     id 'signing'
 }
@@ -79,7 +79,6 @@ javadoc {
 }
 
 dependencies {
-
-    implementation "com.google.devtools.ksp:symbol-processing-api:1.6.20-1.0.5"
-    testImplementation 'junit:junit:4.13.2'
+    implementation(libs.google.ksp.api)
+    testImplementation(libs.junit4)
 }
