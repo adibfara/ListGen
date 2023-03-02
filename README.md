@@ -1,9 +1,7 @@
 # ListGen - Generate Lists from Annotations!
 
-Welcome to ListGen!
-
-ListGen is a KSP-based library that can generate lists (and also arrays and maps)
-from your functions that are annotated with `@Listed` (also `@Arrayed` and `@Mapped`).
+ListGen is a Kotlin SymbolProcessor (KSP) library that generates lists (also arrays and maps) from
+the functions annotated with `@Listed` (or `@Arrayed` and `@Mapped`).
 
 ## Usage
 
