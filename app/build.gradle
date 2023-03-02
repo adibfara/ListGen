@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace = "com.snaky.kspsample"
     compileSdk = 31
 
     defaultConfig {
