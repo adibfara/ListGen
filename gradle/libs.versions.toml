@@ -5,15 +5,15 @@ ksp = "1.6.21-1.0.6"
 
 [libraries]
 # AndroidX
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.4.1" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.0.4" }
-androidx-core = { group = "androidx.core", name = "core-ktx", version = "1.6.0" }
-androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version = "3.4.0" }
-androidx-test-ext = { group = "androidx.test.ext", name = "junit-ktx", version = "1.1.3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+androidx-core = { group = "androidx.core", name = "core-ktx", version = "1.9.0" }
+androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version = "3.5.1" }
+androidx-test-ext = { group = "androidx.test.ext", name = "junit-ktx", version = "1.1.5" }
 
 # Google
 google-ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version.ref = "ksp" }
-google-material = { group = "com.google.android.material", name = "material", version = "1.5.0" }
+google-material = { group = "com.google.android.material", name = "material", version = "1.8.0" }
 
 # Others
 junit4 = { group = "junit", name = "junit", version = "4.13.2" }
