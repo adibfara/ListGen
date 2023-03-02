@@ -5,7 +5,7 @@ Welcome to ListGen!
 ListGen is a KSP-based library that can generate lists (and also arrays and maps)
 from your functions that are annotated with `@Listed` (also `@Arrayed` and `@Mapped`).
 
-# Usage
+## Usage
 
 First, annotate your functions with your desired output. You can use `@Listed` to generate `listOf`
 , `@Arrayed` to generate `arrayOf` and `@Mapped` for generating `mapOf`.
@@ -43,7 +43,7 @@ val firstMap = mapOf("key1" to firstMapTest(), "key2" to firstMapTest2())
 
 You can safely use the generated lists, arrays and maps for your needs.
 
-# Installation
+## Installation
 
 Add the following to your build.gradle (or build.gradle.kts)
 
@@ -71,7 +71,7 @@ dependencies {
 }
 ```
 
-# Learning KSP
+## Learning KSP
 
 If you want to learn more about KSP, check out
 the [official documentation](https://kotlinlang.org/docs/ksp-overview.html).
