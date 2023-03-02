@@ -7,6 +7,7 @@ plugins {
 android {
     namespace = "com.snaky.kspsample"
     compileSdk = 33
+    buildToolsVersion = "34.0.0-rc1"
 
     defaultConfig {
         applicationId = "com.snaky.kspsample"
